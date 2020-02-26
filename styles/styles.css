@@ -1,0 +1,268 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.test {
+    border: 1px red solid;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+body {
+    width: 100%;
+    font-family: 'Open Sans';
+    height: 100vh;
+}
+
+header {
+    background-color: rgb(248, 248, 248);
+    width: 100%;
+}
+.name a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.nav-main a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+@media(max-width:768px) {
+    header {
+        text-align: center;
+    }
+    .name a {
+        font-size: .8em;
+    }
+    .name {
+        padding: 10px;
+    }
+.nav-main a {
+    display: block;
+    width: 85%;
+    padding: 8px;
+    margin: 6px auto;
+    background: white;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.student-img {
+    width: 65%;
+    margin: 10%;
+}
+.intro {
+    padding: 0 15px;;
+}
+.introhead {
+    padding-bottom: 30px;
+}
+main{
+    display: block;
+    text-align: center;
+}
+main img {
+    padding: 30px 0 20px;
+    width: 90%;
+}
+main h3 {
+    padding-top: 30px;
+    font-size: 18px;
+    font-weight: 800;
+}
+main p {
+    padding: 25px;
+}
+footer {
+    background-color: rgb(248, 248, 248);
+    text-align: center;
+}
+footer h5 {
+    padding: 40px;
+    font-size: 15px;
+    font-weight: 800;
+}
+footer p {
+    padding: 0 20px 20px;
+}
+hr {
+    width: 90%;
+    margin: 0 auto;
+    opacity: .5;
+}
+.bottom {
+    display: inline-block;
+    width: 100%;
+    margin-top: 1.5em;;
+}
+.bottom h6 {
+    float: left;
+    font-weight: 800;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.bottom a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    float: right;
+    padding-right: 20px;
+}
+.large {
+    display: none;
+}
+}
+@media(min-width:768px) {
+
+.name {
+    font-size: 1.5em;
+    padding: 1.5em;
+}
+.navhead {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.nav-main a {
+    width: 85%;
+    padding: 15px;
+    margin: 6px auto;
+    font-weight: 700;
+}
+.student-img {
+    width: 40%;
+    float: right;
+    padding: 30px;
+}
+.introhead {
+    padding: 30px;
+}
+.intro {
+    font-size: 18px;
+    padding: 30px;
+}
+main h3 {
+    text-align: center;
+    padding: 50px;
+}
+.project {
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 30px;
+}
+.project p {
+    font-size: 75%;
+}
+.project img {
+    width: 100%;
+}
+.project h4 {
+    padding-top: 20px;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.fleft {
+    float: left;
+    display: block;
+    width: 48%;
+    padding-left: 5px;
+}
+.fright {
+    float: right;
+    display: block;
+    width: 48%;
+    padding-right: 5px;
+}
+footer {
+    background-color: rgb(248, 248, 248);
+    text-align: center;
+}
+footer h6 {
+    padding: 40px;
+    font-size: 15px;
+    font-weight: 800;
+}
+footer h6 {
+    padding: 0 20px 20px;
+}
+footer p {
+    padding: 0 90px 20px;
+}
+footer h5 {
+    font-size: 15px;
+    padding: 30px;
+}
+hr {
+    width: 90%;
+    margin: 0 auto;
+    opacity: .5;
+}
+.bottom {
+    display: inline-block;
+    width: 100%;
+    margin-top: 1.5em;;
+}
+.bottom h6 {
+    float: left;
+    font-weight: 800;
+}
+.bottom a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    float: right;
+    padding-right: 20px;
+}
+.small {
+    display: none;
+}
+
+}
+@media(min-width:1024px) {
+    
+    .navhead {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .name {
+        float: left;
+    }
+    .nav-main {
+        float: right;
+        padding: 40px;
+    }
+    .intro {
+        font-size: 1.2em;
+    }
+    .introhead {
+        margin: 0 auto;
+        width: 80%;
+    }
+    .container {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .project {
+        display: inline-block;
+        vertical-align: top;
+        width: 30%;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .fleft {
+        float: none;
+    }
+    .fright {
+        float: none;
+    }
+   
+    
+
+
+
+}
